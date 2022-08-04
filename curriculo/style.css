@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+#header {
+    background-color: rgba(238, 86, 10, 0.199);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;           
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#contact {
+    list-style-type: none;
+}
+
+#contact i {
+    width: 30px;
+    color: rgba(238, 86, 10, 0.199);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+    
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    border-radius: 15px;
+    padding: 20px;
+}
