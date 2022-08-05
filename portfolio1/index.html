@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,400;1,700 & display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Portfólio</title>
     <style>
         body {
@@ -55,6 +55,69 @@
 
         a {
             color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #headerCta a {
+            color: white;
+        }
+
+        #buttonCta {
+            background-color: #1f7ccf;
+            border-radius: 50px;
+            padding: 10px 25px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;                     
+        }
+
+        #headerCta p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        #headerCta h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            color: #000000;
+        }
+
+        #headerImg  img {
+            width: 100%;
+            margin-left: 40px;
+            border-radius: 30px;
+        }
+
+        .headerLogo img {
+            text-align: center;
+            width: 50px;   
+            height: 50px;    
+            margin-top: 50px;    
+            margin-bottom: 50px;
+        }
+
+        .headerClientText {
+            font-family: 'Poppins';
+            font-style: normal;
+            text-align: center;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            width: 50px;   
+            height: 50px;    
+            margin-top: 30px;
+            color: #070f18;
         }
     </style>
 </head>
@@ -70,6 +133,33 @@
                 <li><a href="#">Portfólio</a></li>
             </ul>
 
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>Olá, meu nome<br>
+            é Anderson
+            </h1>
+            <p>Sou programador e gostaria de apresentar meu<br> trabalho para vocês através deste portfólio.</p>
+            <a id="buttonCta" href="#">Meus Serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="img/foto anderson.jpeg" alt="Foto de Anderson Barcelos">
+        </div>
+    </div>
+    <div class="container" id="clients">
+        <div class="headerClientText">
+            Alguns dos<br>
+            meus clientes
+        </div>
+        <div class="headerLogo">
+            <img src="img/logoApple.png" alt="Logo Apple">
+        </div>
+        <div class="headerLogo">
+            <img src="img/logoBmw.png" alt="Logo BMW">
+        </div>
+        <div class="headerLogo">
+            <img src="img/logoMercedes.png" alt="Logo Mercedes-Benz">
         </div>
     </div>
 </body>
